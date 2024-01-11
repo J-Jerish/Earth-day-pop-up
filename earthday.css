@@ -1,35 +1,110 @@
 body{
    background-color: #F8D001;
-   font-family: 'Bebas Neue', sans-serif;
+   font-family: 'Roboto', sans-serif;
 }
-.rectangle
-{
+.flex-container {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   justify-content: space-between;
+   align-items: normal;
+   align-content: normal;
+ }
+ 
+ .flex-items:nth-child(1) {
+   display: block;
+   flex-grow: 0;
+   flex-shrink: 1;
+   flex-basis: auto;
+   align-self: auto;
+   order: 0;
+ }
+ 
+ .flex-items:nth-child(2) {
+   display: block;
+   flex-grow: 0;
+   flex-shrink: 1;
+   flex-basis: auto;
+   align-self: auto;
+   order: 0;
+ }
+.Rectangle1{
    background-color: #FFFAE8;
    border: 3px solid #FFFFFF ;
-   text-align: center;
-   top: 244px;
-   left: 155px;
-   width: 80%;
-   height: 700px;
+   border-bottom: none;
+   width: 70%;
+   height: 650px;
    margin: auto;
-   margin-top: 50px;
+   margin-top: 100px;
 }
-header
-{
+.Contents{
+   text-align: center;
    margin-top: -30px;
-width: 130px;
-height: 60px;
-background-color: #368D45;
-text-align: center;
-border-radius: 0 0 30px 0;
-color: #FFFFFF;
 }
-header h2{
-   font-size: 25px;
+.flex-items1{
+   background-color: #479E56;
+   width: 120px;
+   height: 60px;
+   color: #FFFFFF;
+   text-align: center;
+   border-radius: 0 0 30px 0;
+}
+.flex-items1 h1{
+   margin-top: 10px;
    letter-spacing: 2px;
 }
- footer{
+.flex-items2{
+   margin-top: 15px;
+   margin-right: 15px;
+}
+.Contents h1{
+   color: #479E56;
+   font-weight: bold;
+   margin: 0%;
+   letter-spacing: 1px;
+}
+.Contents h2{
+   color: #479E56;
+   font-weight: 400;
+   font-size: small;
+   margin: 0%;
+   letter-spacing: 2px;
+}
+.Contents h3{
+   color: #907433;
+   font-weight: 500;
+}
+.Contents h4{
+   width: 380px;
+   text-align: center;
+   margin: auto;
+   font-weight: 400;
+   margin-top: 5px;
+}
+button{
+   margin-top: 50px;
    background-color: #368D45;
-  color: white;
-  text-align: center;
- }
+   color: #FFFFFF;
+   border:none;
+   border-radius: 24px;
+   padding: 11px 50px;
+}
+.Rectangle2{
+   background-color: #368D45;
+   text-align: center;
+   width: 70.45%;
+   margin: auto;
+   padding: 2px 0;
+   margin-top: 0%;
+   color: #FFFFFF;
+}
+.Rectangle2 h1{
+   margin-bottom: 0%;
+   letter-spacing: 2px;
+}
+.Rectangle2 h2{
+   margin-top: 0%;
+   font-size: 16px;
+   font-weight: 300;
+   letter-spacing: 1px;
+}
