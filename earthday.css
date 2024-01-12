@@ -36,7 +36,7 @@ body{
    border: 3px solid #FFFFFF ;
    border-bottom: none;
    width: 70%;
-   height: 650px;
+   height: 620px;
    margin: auto;
    margin-top: 100px;
 }
@@ -82,7 +82,7 @@ body{
    text-align: center;
    margin: auto;
    font-weight: 400;
-   margin-top: 5px;
+   margin-top: -20px;
 }
 button{
    margin-top: 50px;
